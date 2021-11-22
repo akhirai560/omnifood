@@ -328,6 +328,40 @@
                 eating well today. You can cancel or pause anytime. And the
                 first meal is on us!
               </p>
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="fullname">Full Name</label>
+                  <input
+                    required
+                    type="text"
+                    id="fullname"
+                    placeholder="Your name"
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    autocomplete="true"
+                    required
+                    type="email"
+                    id="email"
+                    placeholder="me@example.com"
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select required name="" id="select-where">
+                    <option value="">Please choose one option:</option>
+                    <option value="Friends">Friends and family</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
             </div>
             <div
               class="cta-img-box"
